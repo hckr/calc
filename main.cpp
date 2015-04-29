@@ -1,10 +1,7 @@
-#include <iostream>
+#include <string>
+#include "commandinput.h"
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello World!" << endl;
+int main() {
+    CommandInput("? ").init();
     return 0;
 }
-
